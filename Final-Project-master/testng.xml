@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Coursera Automation Suite" parallel="false">
+
+
+<!--     Test 1: Web Development Course -->
+    <test name="Web Development Test " >
+        <classes>
+            <class name="Tests.WebDevelopmentCourseTest"/>
+        </classes>
+    </test>
+
+    <!-- Test 2: Language Learning Course -->
+    <test name="Language Course Test">
+        <classes>
+            <class name="Tests.LanguageCourseTest"/>
+        </classes>
+    </test>
+
+    <!-- Test 3: Enterprise Form Validation -->
+    <test name="Enterprise Form Test">
+        <classes>
+            <class name="Tests.EnterpriseFormTest"/>
+        </classes>
+    </test>
+
+</suite>
